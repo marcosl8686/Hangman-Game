@@ -1,0 +1,83 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+body {
+	background-image:url(../images/saw-4.jpg);
+}
+#try {
+	font-size:30px;
+	animation: myFrame .5s ease-in-out 0s infinite normal forwards running;	
+}
+#levels {
+	font-size:30px;
+	animation: myFrame .5s ease-in-out 0s infinite normal forwards running;
+}
+@keyframes myFrame {
+	0% {
+		color: red;
+	}
+	50% {
+		color: orange;
+	}
+	100% {
+		color: yellow;
+	}
+}
+#girl {
+	background:url("../images/girl1.png");
+	width: 128px;
+	height: 128px;
+	animation: jump-girl 1.5s steps(2) infinite;
+}
+#bathroom {
+	background-image: url(../images/bathroom.jpg);
+	background-size:100%;
+	height: 90px;
+}
+#jigsaw {
+	background:url("../images/jigsaw.png");
+	width: 96px;
+	height: 96px;
+	animation: jigjump 1.0s steps(2) infinite;
+}
+@keyframes jigjump {
+	from { background-position: 0px; }
+	to { background-position: -192px; }
+}
+@keyframes jump-girl {
+	from { background-position: 0px; }
+	to { background-position: -256px; }
+}
+.jumbotron {
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+	background-image: url(../images/saw2.jpg);
+	background-position: center;
+	color:red;
+}
+#letters a {
+	color:red;
+	background-color: black;
+	padding:10px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+#letters a:hover {
+	color:grey;
+}
+#letters {
+	height: 40px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+}
+#blankWord {
+	text-align: center;
+	color:red;
+}
+
+.letter {
+	margin-left: 2%;
+	
+}

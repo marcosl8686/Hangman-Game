@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head>
+	<title>Hangman Game</title>
+</head>
+<body>
+	<div class="row">
+		<div class="jumbotron container">
+			<h1>DO YOU WANT TO PLAY A GAME?</h1>
+				<div id="header">
+					<p> YOU HAVE <span id="try">8</span> TRIES!</p>
+					<p> You are in Level <span id="levels">1</span></p>
+				</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="bathroom">
+				<div id="girl"></div>
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><h1 id="blankWord">_ _ _ _ </h1></div> <!-- find a way make it responsive -->
+			<div id="jigsaw" class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+			<br><br><br>
+		</div>
+	</div>
+	<br><br>
+	<div class="container">	
+		<div class="row" id="letters">
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="a">A</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="b">B</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="c">C</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="d">D</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="e">E</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="f">F</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="g">G</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="h">H</a>
+		</div>
+		<div class="row" id="letters">	
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="i">I</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="j">J</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="k">K</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="l">L</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="m">M</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="n">N</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="o">O</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="p">P</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="q">Q</a>
+		</div>
+		<div class="row" id="letters">	
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="r">R</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="s">S</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="t">T</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="u">U</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="v">V</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="w">W</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="x">X</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="y">Y</a>
+			<a class="letter col-xs-1 col-sm-1 col-md-1 col-lg-1" id="z">Z</a>
+		</div>	
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
